@@ -8,3 +8,4 @@
 /home/stamatis/Desktop/VendorsApp/FileLoader/obj/Debug/netstandard2.0/FileLoader.csproj.CoreCompileInputs.cache
 /home/stamatis/Desktop/VendorsApp/FileLoader/obj/Debug/netstandard2.0/FileLoader.dll
 /home/stamatis/Desktop/VendorsApp/FileLoader/obj/Debug/netstandard2.0/FileLoader.pdb
+/home/stamatis/Desktop/VendorsApp/FileLoader/obj/Debug/netstandard2.0/FileLoader.sourcelink.json

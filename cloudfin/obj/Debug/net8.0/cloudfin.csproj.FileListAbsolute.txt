@@ -35,3 +35,4 @@
 /home/stamatis/Desktop/VendorsApp/cloudfin/bin/Debug/net8.0/SqlServerLoader.dll
 /home/stamatis/Desktop/VendorsApp/cloudfin/bin/Debug/net8.0/FileLoader.pdb
 /home/stamatis/Desktop/VendorsApp/cloudfin/bin/Debug/net8.0/SqlServerLoader.pdb
+/home/stamatis/Desktop/VendorsApp/cloudfin/obj/Debug/net8.0/cloudfin.sourcelink.json

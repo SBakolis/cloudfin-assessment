@@ -1,0 +1,33 @@
+<div>
+  <h1>Companies</h1>
+  <ul>
+    <li *ngFor="let company of companies">
+      {{ company.code }} - {{ company.address }} - {{ company.description }}
+      <button (click)="deleteCompany(company.code)">Delete</button>
+    </li>
+  </ul>
+
+  <h2>Add Company</h2>
+  <form (ngSubmit)="addCompany()">
+    <label for="code">Code:</label>
+    <input id="code" [(ngModel)]="newCompany.code" name="code" required />
+    <br />
+    <label for="address">Address:</label>
+    <input
+      id="address"
+      [(ngModel)]="newCompany.address"
+      name="address"
+      required
+    />
+    <br />
+    <label for="description">Description:</label>
+    <input
+      id="description"
+      [(ngModel)]="newCompany.description"
+      name="description"
+      required
+    />
+    <br />
+    <button type="submit">Add Company</button>
+  </form>
+</div>

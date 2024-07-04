@@ -8,3 +8,4 @@
 /home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.csproj.CoreCompileInputs.cache
 /home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.dll
 /home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.pdb
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.sourcelink.json

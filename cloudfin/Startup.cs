@@ -22,6 +22,15 @@ namespace CompanyApi
             // Configure IDataLoader and ICompanyService here
             services.AddScoped<IDataLoader, SqlServerDataLoader>(); // FileDataLoader/SqlServerDataLoader based on your choice
             services.AddScoped<ICompanyService, CompanyService>();
+
+						services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp",
+                    builder => builder
+                        .WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -32,11 +41,9 @@ namespace CompanyApi
             }
 
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
+						app.UseCors("AllowAngularApp");
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
