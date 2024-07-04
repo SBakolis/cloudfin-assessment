@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LMYBtsV0hOqfD2rFnR96sBeY1i4NCeMK5aUz1KHk25uwPFO9xDLOPnhqoyUdtVDd6pKiLR5YEIj0GNkYGxNTSg==",
+  "success": true,
+  "projectFilePath": "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj",
+  "expectedPackageFiles": [
+    "/home/stamatis/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

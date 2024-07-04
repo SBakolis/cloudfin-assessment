@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "YjcfqhXucdPU+CXbU8NUU+KasEiY2irndjQDLfZUnz2j9RQ2WttZs0fB/cKDIbgx+iKD6XAam8Ii8zQPbJTYaA==",
+  "success": true,
+  "projectFilePath": "/home/stamatis/Desktop/VendorsApp/cloudfin/cloudfin.csproj",
+  "expectedPackageFiles": [
+    "/home/stamatis/.nuget/packages/microsoft.aspnetcore.openapi/8.0.6/microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "/home/stamatis/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = SqlServerLoader
+build_property.ProjectDir = /home/stamatis/Desktop/VendorsApp/SqlServerLoader/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

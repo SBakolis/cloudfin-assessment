@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/stamatis/Desktop/VendorsApp/cloudfin/cloudfin.csproj": {}
+  },
+  "projects": {
+    "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj",
+        "projectName": "FileLoader",
+        "projectPath": "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj",
+        "packagesPath": "/home/stamatis/.nuget/packages/",
+        "outputPath": "/home/stamatis/Desktop/VendorsApp/FileLoader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stamatis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.106/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/SqlServerLoader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/SqlServerLoader.csproj",
+        "projectName": "SqlServerLoader",
+        "projectPath": "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/SqlServerLoader.csproj",
+        "packagesPath": "/home/stamatis/.nuget/packages/",
+        "outputPath": "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stamatis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.106/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/stamatis/Desktop/VendorsApp/cloudfin/cloudfin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/stamatis/Desktop/VendorsApp/cloudfin/cloudfin.csproj",
+        "projectName": "cloudfin",
+        "projectPath": "/home/stamatis/Desktop/VendorsApp/cloudfin/cloudfin.csproj",
+        "packagesPath": "/home/stamatis/.nuget/packages/",
+        "outputPath": "/home/stamatis/Desktop/VendorsApp/cloudfin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/stamatis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj": {
+                "projectPath": "/home/stamatis/Desktop/VendorsApp/FileLoader/FileLoader.csproj"
+              },
+              "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/SqlServerLoader.csproj": {
+                "projectPath": "/home/stamatis/Desktop/VendorsApp/SqlServerLoader/SqlServerLoader.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.6, 8.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.106/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

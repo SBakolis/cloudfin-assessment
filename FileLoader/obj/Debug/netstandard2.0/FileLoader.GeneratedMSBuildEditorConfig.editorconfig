@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = FileLoader
+build_property.ProjectDir = /home/stamatis/Desktop/VendorsApp/FileLoader/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

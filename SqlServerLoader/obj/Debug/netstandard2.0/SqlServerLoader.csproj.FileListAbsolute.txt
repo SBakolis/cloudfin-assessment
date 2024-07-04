@@ -1,0 +1,10 @@
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/bin/Debug/netstandard2.0/SqlServerLoader.deps.json
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/bin/Debug/netstandard2.0/SqlServerLoader.dll
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/bin/Debug/netstandard2.0/SqlServerLoader.pdb
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.csproj.AssemblyReference.cache
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.GeneratedMSBuildEditorConfig.editorconfig
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.AssemblyInfoInputs.cache
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.AssemblyInfo.cs
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.csproj.CoreCompileInputs.cache
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.dll
+/home/stamatis/Desktop/VendorsApp/SqlServerLoader/obj/Debug/netstandard2.0/SqlServerLoader.pdb
