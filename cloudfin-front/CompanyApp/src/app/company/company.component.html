@@ -1,33 +1,69 @@
-<div>
+<div class="container">
   <h1>Companies</h1>
-  <ul>
-    <li *ngFor="let company of companies">
-      {{ company.code }} - {{ company.address }} - {{ company.description }}
-      <button (click)="deleteCompany(company.code)">Delete</button>
-    </li>
-  </ul>
+  <table mat-table [dataSource]="companies" class="mat-elevation-z8">
+    <!-- Code Column -->
+    <ng-container matColumnDef="code">
+      <th mat-header-cell *matHeaderCellDef>Code</th>
+      <td mat-cell *matCellDef="let company">{{ company.code }}</td>
+    </ng-container>
 
-  <h2>Add Company</h2>
-  <form (ngSubmit)="addCompany()">
-    <label for="code">Code:</label>
-    <input id="code" [(ngModel)]="newCompany.code" name="code" required />
-    <br />
-    <label for="address">Address:</label>
-    <input
-      id="address"
-      [(ngModel)]="newCompany.address"
-      name="address"
-      required
-    />
-    <br />
-    <label for="description">Description:</label>
-    <input
-      id="description"
-      [(ngModel)]="newCompany.description"
-      name="description"
-      required
-    />
-    <br />
-    <button type="submit">Add Company</button>
+    <!-- Address Column -->
+    <ng-container matColumnDef="address">
+      <th mat-header-cell *matHeaderCellDef>Address</th>
+      <td mat-cell *matCellDef="let company">{{ company.address }}</td>
+    </ng-container>
+
+    <!-- Description Column -->
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef>Description</th>
+      <td mat-cell *matCellDef="let company">{{ company.description }}</td>
+    </ng-container>
+
+    <!-- Actions Column -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>Actions</th>
+      <td mat-cell *matCellDef="let company">
+        <button mat-icon-button color="primary" (click)="editCompany(company)">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <button
+          mat-icon-button
+          color="warn"
+          (click)="deleteCompany(company.code)"
+        >
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+  </table>
+
+  <h2>{{ isEditMode ? "Edit Company" : "Add New Company" }}</h2>
+  <form class="company-form">
+    <mat-form-field>
+      <mat-label>Code</mat-label>
+      <input matInput [(ngModel)]="newCompany.code" name="code" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Address</mat-label>
+      <input matInput [(ngModel)]="newCompany.address" name="address" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <input matInput [(ngModel)]="newCompany.description" name="description" />
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="addOrUpdateCompany()">
+      {{ isEditMode ? "Update Company" : "Add Company" }}
+    </button>
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="resetForm()"
+      *ngIf="isEditMode"
+    >
+      Cancel
+    </button>
   </form>
 </div>
